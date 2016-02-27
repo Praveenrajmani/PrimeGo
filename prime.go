@@ -35,6 +35,19 @@ func validateprime(number int) int {
 		return 0
 	}
 }
+func validateprime(number int) int {
+	var count int = 0
+	for i := 1; i <= number; i++ {
+		if number%i == 0 {
+			count++
+		}
+	}
+	if count == 2 {
+		return 1
+	} else {
+		return 0
+	}
+}
 
 //change has been marked
 //git is awesome
