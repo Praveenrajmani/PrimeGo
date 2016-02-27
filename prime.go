@@ -34,6 +34,7 @@ func validateprime(number int) int {
 	} else {
 		return 0
 	}
+<<<<<<< HEAD
 }
 func validateprime(number int) int {
 	var count int = 0
@@ -53,3 +54,6 @@ func validateprime(number int) int {
 //git is awesome
 //again modified
 
+=======
+}
+>>>>>>> 205003679a9610ffb6ed306643adc2929be783e8
