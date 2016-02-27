@@ -9,7 +9,7 @@ func main() {
 	resulting := 0
 
 	for i := 2; resulting < 60; i++ {
-		if Is_prime(i) == 1 {
+		if validateprime(i) == 1 {
 			fmt.Println("\n", i)
 			lprime = i
 			t1 := time.Now()
@@ -22,7 +22,7 @@ func main() {
 	fmt.Println("\n\n The largest prime is ", lprime)
 }
 
-func Is_prime(number int) int {
+func validateprime(number int) int {
 
 	var count int = 0
 

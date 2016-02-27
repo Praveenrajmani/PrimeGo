@@ -39,3 +39,4 @@ func validateprime(number int) int {
 		return 0
 	}
 }
+//modified 
