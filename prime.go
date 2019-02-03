@@ -7,7 +7,7 @@ func main() {
 	t0 := time.Now()
 	lprime := 0
 	resulting := 0
-
+	// Validating Prime.
 	for i := 2; resulting < 60; i++ {
 		if validateprime(i) == 1 {
 			fmt.Println("\n", i)
@@ -35,9 +35,4 @@ func validateprime(number int) int {
 		return 0
 	}
 }
-
-//corrected code 
-//code modified 
-//have fun !
-
 
